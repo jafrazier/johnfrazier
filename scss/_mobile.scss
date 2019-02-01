@@ -3,6 +3,10 @@
   main {
     height: calc(100vh - 60px);
   }
+  #work{
+    height: 100%;
+  }
+
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -14,7 +18,10 @@
 @include mediaLg {
   main {
     height: calc(100vh - 60px);
+
+
   }
+
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
